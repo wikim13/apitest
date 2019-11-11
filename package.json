@@ -4,7 +4,7 @@
   "description": "project for storing postman test",
   "main": "index.js",
   "scripts": {
-    "api-test": "npm newman run api-testing/jenkins_api_test.postman_collection.json"
+    "api-test": "npm newman run api-testing/jenkins_api_test.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "vikas mishra",
   "license": "ISC",
